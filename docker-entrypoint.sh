@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
 
-export GC_DOMAIN="${RENDER_EXTERNAL_HOSTNAME}"
 export DB_HOSTNAME=${DB_HOSTNAME:-'oregon-postgres.render.com'}
 
 migrate_db ()
