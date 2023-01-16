@@ -25,6 +25,8 @@ services:
         sync: false
       - key: GC_PASSWORD
         sync: false
+      - key: GC_DOMAIN
+        sync: false
 
 databases:
   - name: goatcounter-postgres
